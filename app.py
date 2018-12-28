@@ -24,4 +24,4 @@ def test2(chartID = 'test2', chart_type = 'column', chart_height = 350):
 	return render_template('test2.html', chartID=chartID, chart=chart, title=title, xAxis=xAxis, yAxis=yAxis, series=series, drilldown=drilldown)
 
 if __name__ == "__main__":
-	app.run(debug = True, host='0.0.0.0', port=8080)
+	app.run(debug = True, host='0.0.0.0', port=8081)
